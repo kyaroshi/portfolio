@@ -709,3 +709,19 @@ height: 100%;
   max-height: 500px !important;
   overflow: hidden;
 }
+
+footer{
+  font-family: "Overpass", sans-serif;
+  color: #232323;
+}
+
+#footerList{
+  margin-bottom: 0;
+}
+
+.btn-github, .btn-li {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-bottom: 0;
+  color: #232323;
+}
