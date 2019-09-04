@@ -371,7 +371,7 @@ margin-top: 1rem;
 font-family: "open sans", sans-serif;
 font-size: 1rem;
 color: #232323;
-padding-bottom: 7rem;
+padding-bottom: 0rem;
 
 }
 
@@ -549,7 +549,7 @@ overflow: hidden;
   .blurb-subtitle{
     font-size: 1rem;
     padding: 0;
-    margin-top: 0;
+    margin-top: 0 !important;
     text-align: center;
   }
 
@@ -724,4 +724,43 @@ footer{
   padding: 1rem;
   margin-bottom: 0;
   color: #232323;
+}
+
+
+/*.bounceMe {
+  animation: bounceArrow 2s infinite;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+@keyframes bounceArrow {
+  from { margin-top: 0px;
+
+  }
+  50% {margin-top: 10px;
+
+  }
+  to {margin-top: 0px;
+
+  }
+}*/
+
+
+button{
+    margin-top: 0px;
+    margin-bottom: 24px;
+    width: 287px;
+    height: 50px;
+    background-color: #e61c8c;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 0.5s;
+}
+
+button:hover{
+    width: 300px;
+    background-color: rgb(150, 35, 93)
 }
