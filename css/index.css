@@ -724,7 +724,11 @@ footer{
   font-size: 2rem;
   padding: 1rem;
   margin-bottom: 0;
-  color: #232323;
+  color: rgb(150, 35, 93);
+}
+
+.btn-github:hover, .btn-li:hover{
+  color: #e61c8c;
 }
 
 
