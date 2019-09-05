@@ -10,6 +10,7 @@
 
     <!-- css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Overpass:200,300,400,700,800&display=swap" rel="stylesheet">
@@ -41,10 +42,10 @@
               <a class="navbar-brand" #href="#"><span class="highlight">C</span>AROLINE <span class="highlight">L</span>USSIER</a>
             
           
-            
+            </nav>  
           </div>
-        </nav>
-              </nav>
+        
+              
     </div>
         <div class="top-container">
             <div class="container">
@@ -56,7 +57,46 @@
                     <div class="col-xs-8 col-md-7 col-lg-7">
                         <p class="blurb"><span class="highlight">UX/UI</span> Designer</p>
                         <p class="blurb-subtitle"> Anthropologist with a knack for UX Design and Research</p>
-                       <!--   <button>Send an email</button>-->
+                       
+                      <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="mainBtn">
+    Talk to me
+    </button>
+  
+                    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+         <div class="modal-dialog" role="document">
+             <div class="modal-content">
+                 <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">&times;</span></button>
+           <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
+                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="form-group">
+                                      <label for="recipient-name" class="control-label">Email:</label>
+                                      <input type="email" class="required" id="email" name="email" title="This is a required field" />
+                                      <span class="msg error">Not a valid email address</span>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="message-text" class="control-label">Message:</label>
+                                      <textarea class="form-control" id="message-text"></textarea>
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal" id="thirdBtn">Close</button>
+                                    <button type="button" class="btn btn-primary" id="secondBtn">Send message</button>
+                                  </div>
+                              </div>
+                            </div>
+                            
+                          </div>
+                     
+        
+             </div>
+        </div>
+    </div>
                     </div>
 
                 </div>
@@ -180,6 +220,11 @@
 
 
       <script src="js/index.js"></script>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
 
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
